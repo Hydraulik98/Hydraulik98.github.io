@@ -5,8 +5,46 @@
 	font-size: 100%;
 }
 
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 90px 20px;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h2:first-child {
+	margin-top: 40px;
+}
+
+h2 {
+	margin-top: 24px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 27px;
+}
+
+.social {
+	display: flex;
+	gap: 8px;
+	margin-top: 24px;
+	font-weight: 600;
+}
+
+a {
+	color: rgb(41, 41, 229);
 }
